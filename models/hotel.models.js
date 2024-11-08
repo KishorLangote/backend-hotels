@@ -53,7 +53,7 @@ const hotelSchema = new mongoose.Schema({
         type: Boolean,
         default: false,
     },
-    isWifiAvailable: {
+    isWiFiAvailable: {
         type: Boolean,
         default: false,
     },
