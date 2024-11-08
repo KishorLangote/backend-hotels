@@ -291,14 +291,14 @@ app.post("/hotels", async (req, res) => {
   // updateHotelData("+1299655890", { phoneNumber: "+1997687392" })
 
 
-  async function deleteHotelById(hotelId){
-    try {
-      const deletedHotel = await Hotel.findByIdAndDelete(hotelId)
-      console.log(deletedHotel)
-    } catch (error){
-      console.log("Error to deleting hotel data.", error)
-    }
-  }
+  // async function deleteHotelById(hotelId){
+  //   try {
+  //     const deletedHotel = await Hotel.findByIdAndDelete(hotelId)
+  //     console.log(deletedHotel)
+  //   } catch (error){
+  //     console.log("Error to deleting hotel data.", error)
+  //   }
+  // }
 
   // deleteHotelById("6719f13958080c750900f317")
 
