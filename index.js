@@ -317,7 +317,7 @@ app.post("/hotels", async (req, res) => {
 
   async function deletedHotels(hotelId){
     try {
-      const deleteHotel = await Hotel.findOneAndDelete(hotelId)
+      const deleteHotel = await Hotel.findOneAndDelete({_id: hotelId})
       return deleteHotel
     } catch (error) {
       throw error
